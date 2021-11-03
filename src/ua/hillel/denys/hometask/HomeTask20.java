@@ -12,7 +12,7 @@ public class HomeTask20 {
         c = array(c);
         for (int i =0; i<c.length; i++){
             for (int j=0; j<c[i].length; j++) {
-                System.out.println(Arrays.toString(c);
+                System.out.println(c);
             }
         }
         //System.out.println(Arrays.toString(c));

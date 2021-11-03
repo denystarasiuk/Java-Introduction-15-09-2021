@@ -15,7 +15,6 @@ public class HomeTask18 {
             }
         }
 
-
         while (a >= 0) {
             array[a] = 0;
             a--;
