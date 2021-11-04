@@ -6,6 +6,7 @@ package ua.hillel.denys.hometask;
 public class HomeTask21 {
 
     public static void main(String[] args) {
+
         int[][] ar = {{-6, 5, 10, -4}, {-9, 22, -3, 8}};
 
         System.out.println("массив имеет вид:");
@@ -15,8 +16,10 @@ public class HomeTask21 {
             }
             System.out.println();
         }
+
         System.out.println();
         System.out.println("Номера ячеек массива с отрицательными числами:");
+
         for (int i = 0; i < ar.length; i++) {
             for (int j = 0; j < ar[i].length; j++) {
                 if (ar[i][j] < 0) {
